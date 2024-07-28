@@ -47,11 +47,11 @@ const Banner = () => {
                     size="lg"
                     type="email"
                     placeholder="Enter your email"
-                    className="rounded-3xl !border !border-gray-300 bg-white text-gray-900 shadow-lg shadow-gray-900/5 ring-4 ring-transparent placeholder:text-gray-500 placeholder:opacity-100 focus:!border-gray-900 focus:!border-t-gray-900 focus:ring-gray-900/10"
+                    className="!border !border-gray-300 bg-white text-gray-900 shadow-lg shadow-gray-900/5 ring-4 ring-transparent placeholder:text-gray-500 placeholder:opacity-100 focus:!border-gray-900 focus:!border-t-gray-900 focus:ring-gray-900/10"
                     labelProps={{
                       className: 'hidden',
                     }}
-                    containerProps={{ className: 'md:mr-[15px] md:flex-1 max-sm:mb-[15px]' }}
+                    containerProps={{ className: 'md:mr-[15px] md:flex-1 max-sm:mb-[15px] input-rounded' }}
                   />
                   <Button color="blue" className="w-full rounded-full font-normal normal-case md:w-[130px]" size="lg">
                     Subscribe

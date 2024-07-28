@@ -63,3 +63,9 @@
     transform: translateY(-7px);
   }
 }
+
+.input-rounded {
+  input {
+    border-radius: 32px;
+  }
+}
