@@ -1,0 +1,33 @@
+{
+  "site": {
+    "title": "Streetview - Khám phá đường phố Việt Nam | Streetview.vn",
+    "base_url": "https://www.streetview.vn",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "180",
+    "logo_height": "60",
+    "logo_text": "Streetview"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "tryItNow",
+    "link": "/"
+  },
+
+  "params": {
+    "copyright": "© 2024 Streetview. Ltd. All rights reserved"
+  },
+
+  "metadata": {
+    "meta_author": "Streetview",
+    "meta_image": "/images/logo.png",
+    "meta_description": "Khám phá đường phố tại Việt Nam bằng công nghệ 360° độc đáo với Streetview.vn"
+  }
+}

@@ -1,0 +1,65 @@
+// section style
+.section {
+  @apply pb-[70px] pt-[70px];
+}
+
+// container
+.container {
+  @apply mx-auto max-w-[1140px] px-4;
+}
+
+.svgWhite {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  height: 42%;
+}
+
+.swiperBox {
+  .swiper-pagination {
+    .swiper-pagination-bullet {
+      width: 15px;
+      height: 15px;
+      box-shadow: 0 0 0 1px #a2a8ab;
+      background-color: transparent;
+      opacity: 1;
+      margin: 20px 10px;
+      &.swiper-pagination-bullet-active {
+        background-color: #0056f1;
+        border: 3px solid #fff;
+      }
+    }
+  }
+}
+
+.filter-drop-shadow {
+  filter: drop-shadow(0 8px 16px rgb(0, 0, 0, 0.16));
+}
+
+.destination {
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-4px);
+    .destinationInfo {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .destinationInfo {
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.hover-transform-translateY {
+  transition: 0.3s;
+  &:hover {
+    transform: translateY(-7px);
+  }
+}

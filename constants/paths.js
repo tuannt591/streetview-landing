@@ -1,0 +1,20 @@
+export const paths = {
+  home: '/',
+  aboutUs: '/about-us',
+  solutions: {
+    mapFeature: '/solutions/map-feature',
+    autonomous: '/solutions/autonomous',
+    energy: '/solutions/energy',
+    taxManagement: '/solutions/tax-management',
+    digitalTwin: '/solutions/digital-twin',
+  },
+  contact: '/contact',
+  developer: '/developer',
+  download: '/download',
+  openStreetMap: '/openstreetmap',
+  licenses: '/licenses',
+  privacyPolicy: '/privacy-policy',
+  cookiePolicy: '/cookie-policy',
+  terms: '/terms',
+  dataProcessing: '/data-processing',
+};
