@@ -13,7 +13,6 @@ import Questions from '@layouts/components/home/Questions';
 import ImageryAndMap from '@layouts/components/home/ImageryAndMap';
 import MakeSmartMaps from '@layouts/components/home/MakeSmartMaps';
 import StartSharing from '@layouts/components/home/StartSharing';
-import ScrollToTopButton from '@layouts/components/ScrollToTopButton';
 import { MotionXContainer, MotionYContainer } from '@components/Motion';
 
 const HomePage = () => {
@@ -68,8 +67,6 @@ const HomePage = () => {
       <MotionYContainer transition={{ delay: 0.2, duration: 0.5 }}>
         <StartSharing />
       </MotionYContainer>
-
-      <ScrollToTopButton />
     </Base>
   );
 };
