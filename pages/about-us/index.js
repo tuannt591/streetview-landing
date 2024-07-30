@@ -4,6 +4,8 @@ import Base from '@layouts/Baseof';
 import ScrollToTop from '@partials/ScrollToTop';
 import { Typography, Button } from '@material-tailwind/react';
 import { MotionYContainer } from '@components/Motion';
+import { useRouter } from 'next/router';
+import { paths } from 'constants/paths';
 
 const LIST_IMAGE = [
   {
@@ -35,6 +37,7 @@ const LIST_IMAGE = [
 
 const AboutUsPage = () => {
   const { title } = config.site;
+  const router = useRouter();
 
   return (
     <Base title={title}>
@@ -132,7 +135,13 @@ const AboutUsPage = () => {
               </Typography>
             </div>
             <div className="mt-10 flex justify-center">
-              <Button variant="filled" size="lg" color="blue" className="rounded-full normal-case">
+              <Button
+                variant="filled"
+                size="lg"
+                color="blue"
+                className="rounded-full normal-case"
+                onClick={() => router.push(paths.contact)}
+              >
                 Contact us
               </Button>
             </div>

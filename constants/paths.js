@@ -8,7 +8,7 @@ export const paths = {
     taxManagement: '/solutions/tax-management',
     digitalTwin: '/solutions/digital-twin',
   },
-  contact: '/contact',
+  contact: '/contact-us',
   developer: '/developer',
   download: '/download',
   openStreetMap: '/openstreetmap',
