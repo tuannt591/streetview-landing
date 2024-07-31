@@ -51,7 +51,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <Navbar shadow={false} fullWidth className="px-0 py-2">
+      <Navbar shadow={false} fullWidth className="relative z-[5] px-0 py-2">
         <div className="container">
           <div className="flex items-center justify-between">
             <div className="flex items-center">

@@ -287,6 +287,42 @@
   }
 }
 
+@keyframes jss14 {
+  0% {
+    filter: grayscale(1);
+    opacity: 0.1;
+  }
+
+  100% {
+    filter: grayscale(0);
+    opacity: 1;
+  }
+}
+
+@keyframes jss16 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes jss17 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .animateHomeIcons {
   transform: translate(742.047px, 605.512px);
   transition-delay: 0.5s;
@@ -398,4 +434,45 @@
   transform: rotate(-20deg);
   transform-origin: bottom right;
   transform-box: fill-box;
+}
+
+.jss13 {
+  filter: grayscale(1);
+  opacity: 0.1;
+  animation: jss14 1s ease infinite;
+}
+
+.jss15 {
+  animation: jss16 550ms ease-in, jss17 2s linear infinite 650ms;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.showSign {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: show-sign-animation 0.5s ease;
+  transform: var(--t);
+}
+
+.redLineAnimation1 path {
+  stroke-dasharray: 500;
+  animation: redline-animate-1 2s linear;
+}
+
+.redLineAnimation2 path {
+  stroke-dasharray: 150;
+  animation: redline-animate-2 3s linear;
+}
+
+.redLineAnimation3 path {
+  stroke-dasharray: 600;
+  animation: redline-animate-3 5s linear;
+}
+
+.pulseLocation {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: translate(1061px, 1485px) scale(1);
+  animation: pulse-location 0.5s ease-in infinite;
 }
