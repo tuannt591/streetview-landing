@@ -7,7 +7,7 @@ const GlobalSpread = () => {
     <section className="pb-[70px]">
       <div className="container">
         <div className="grid grid-cols-1 justify-between md:gap-20 lg:grid-cols-2">
-          <div className="relative z-[1] h-[400px] w-[400px] cursor-grab select-none max-lg:m-auto">
+          <div className="globeBox relative z-[1] cursor-grab select-none max-lg:m-auto">
             <Globe />
           </div>
           <div className="max-sm:mt-[30px]">

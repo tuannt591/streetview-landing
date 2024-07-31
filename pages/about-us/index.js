@@ -60,16 +60,11 @@ const AboutUsPage = () => {
               </div>
             </div>
 
-            <div className="mt-20 grid h-[400px] grid-flow-col grid-cols-2 grid-rows-2 gap-4 lg:h-[600px] lg:grid-cols-4">
+            <div className="about-gallery mt-20 grid h-[400px] grid-flow-col grid-cols-2 grid-rows-2 gap-4 lg:h-[600px] lg:grid-cols-4">
               {LIST_IMAGE.map((item, index) => {
                 const lastIndexItem = LIST_IMAGE.length - 1;
                 return (
-                  <div
-                    key={index}
-                    className={`max-md:col-span-1 max-md:row-span-1 col-span-${item.col} row-span-${item.row} ${
-                      lastIndexItem === index ? 'max-md:hidden' : ''
-                    }`}
-                  >
+                  <div key={index} className={`item-${index + 1}`}>
                     <img
                       className="h-full w-full max-w-full rounded-lg object-cover object-center"
                       src={item.url}

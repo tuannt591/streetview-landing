@@ -1,7 +1,11 @@
 import React from 'react';
 import { Typography, Button } from '@material-tailwind/react';
+import { paths } from 'constants/paths';
+import { useRouter } from 'next/router';
 
 const StartSharing = () => {
+  const router = useRouter();
+
   return (
     <section className="section" style={{ backgroundColor: 'rgba(236, 236, 236, 0.5)' }}>
       <div className="container">
@@ -13,11 +17,16 @@ const StartSharing = () => {
             Streetview is an independent provider of street-level imagery and map data, not affiliated with
             OpenStreetMap or any specific map platform.
           </Typography>
-          <div className="mt-5 flex justify-center gap-4">
-            <Button variant="filled" size="lg" color="blue" className="rounded-full">
+          <div className="mx-auto mt-5 grid grid-cols-2 items-center justify-center gap-4 gap-4 md:w-[350px]">
+            <Button variant="filled" size="lg" color="blue" className="rounded-full p-[15px] font-normal normal-case">
               Create account
             </Button>
-            <Button variant="outlined" size="lg" className="rounded-full">
+            <Button
+              variant="outlined"
+              size="lg"
+              className="rounded-full p-[15px] font-normal normal-case"
+              onClick={() => router.push(paths.contact)}
+            >
               Contact us
             </Button>
           </div>

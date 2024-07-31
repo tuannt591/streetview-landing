@@ -44,12 +44,12 @@ const WorkCamera = () => {
             <Typography variant="paragraph" className="mb-3 text-lg text-gray-600">
               Collect images with common and easy-to-use devices such as smartphones, action cameras, and 360° cameras.
             </Typography>
-            <div className="mb-10 mt-5 flex items-center">
+            <div className="mb-10 mt-5 grid grid-cols-2 items-center gap-4 lg:w-[75%]">
               <a href="">
-                <img className="mx-2" src="/images/app_store_black.svg" alt="image" />
+                <img className="w-full" src="/images/app_store_black.svg" alt="image" />
               </a>
               <a href="">
-                <img className="mx-2" src="/images/goole_play_black.svg" alt="image" />
+                <img className="w-full" src="/images/goole_play_black.svg" alt="image" />
               </a>
             </div>
           </div>

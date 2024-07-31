@@ -80,14 +80,15 @@ const Banner = () => {
                 <Typography variant="paragraph" className="mb-3 text-lg text-gray-600">
                   Capture, upload, and support current maps while earning various rewards.
                 </Typography>
-                <div className="mb-10 mt-5 flex items-center">
+                <div className="mb-10 mt-5 grid grid-cols-2 items-center gap-4 lg:w-[75%]">
                   <a href="">
-                    <img className="mx-2" src="/images/app_store_black.svg" alt="image" />
+                    <img className="w-full" src="/images/app_store_black.svg" alt="logo-app-store" />
                   </a>
                   <a href="">
-                    <img className="mx-2" src="/images/goole_play_black.svg" alt="image" />
+                    <img className="w-full" src="/images/goole_play_black.svg" alt="logo-google-play" />
                   </a>
                 </div>
+
                 <div>
                   <Typography className="text-base text-gray-600">Supports industry leading companies</Typography>
                   <div className="flex">
