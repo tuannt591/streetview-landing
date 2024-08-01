@@ -206,3 +206,76 @@
     z-index: 2;
   }
 }
+
+.energy-drone {
+  top: 0px;
+  position: absolute;
+  z-index: 3;
+  display: none;
+  @media only screen and (min-width: 992px) {
+    display: block;
+  }
+}
+
+.energy-header-bg {
+  width: auto;
+  top: -85px;
+  position: absolute;
+  left: 0px;
+  max-width: none;
+}
+
+.energy-banner-svg-1 {
+  position: absolute;
+  left: 0px;
+  top: -85px;
+}
+
+.energy-banner-svg-2 {
+  position: absolute;
+  top: 0;
+  left: 210px;
+  z-index: 1;
+}
+
+.energy-topcard-bg {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.energy-solution-method-svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  @media only screen and (min-width: 992px) {
+    right: auto;
+    left: 0;
+  }
+}
+
+.energy-solution-method-photos {
+  position: absolute;
+  width: 60%;
+  top: 20px;
+  left: 40px;
+}
+
+.energy-topcard1 {
+  width: 65%;
+  position: absolute;
+  top: 0;
+}
+
+.energy-topcard2 {
+  width: 65%;
+  position: absolute;
+  top: 80px;
+  left: -20px;
+}
+
+.energy-topcard3 {
+  width: 65%;
+  position: absolute;
+  top: 175px;
+}
