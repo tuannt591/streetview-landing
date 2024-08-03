@@ -481,6 +481,22 @@
   }
 }
 
+@keyframes jss24 {
+  0% {
+    height: 0;
+  }
+}
+
+@keyframes jss13 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(159, 117, 255, 0.4);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(159, 117, 255, 0.4);
+  }
+}
+
 .animateHomeIcons {
   transform: translate(742.047px, 605.512px);
   transition-delay: 0.5s;
@@ -742,4 +758,23 @@
 
 .animatePowerLines > path {
   animation: animate-power-lines 6s linear 2s infinite;
+}
+
+.jss23 > div > svg {
+  animation: jss24 600ms ease-in-out;
+}
+
+.jssbuilding13 {
+  animation: jss16 1s ease;
+  transform-origin: bottom right;
+}
+
+.jssgetbetter {
+  top: 164px;
+  right: 124px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  animation: jss13 1s ease infinite;
+  border-radius: 50%;
 }

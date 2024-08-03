@@ -279,3 +279,126 @@
   position: absolute;
   top: 175px;
 }
+
+.smartax_bg {
+  position: absolute;
+  left: -60px;
+  bottom: -160px;
+  filter: drop-shadow(0 30px 20px rgba(0, 0, 0, 0.2));
+  max-width: none;
+}
+
+.icon-building-1 {
+  position: absolute;
+  z-index: 1;
+  left: 88px;
+  bottom: 55px;
+}
+
+.icon-building-2 {
+  position: absolute;
+  z-index: 8;
+  left: 142px;
+  bottom: 75px;
+}
+
+.icon-building-3 {
+  position: absolute;
+  z-index: 7;
+  left: 200px;
+  bottom: 85px;
+}
+
+.icon-building-4 {
+  position: absolute;
+  z-index: 6;
+  left: 280px;
+  bottom: 100px;
+}
+
+.icon-building-5 {
+  position: absolute;
+  z-index: 5;
+  left: 340px;
+  bottom: 170px;
+}
+
+.icon-building-6 {
+  position: absolute;
+  z-index: 4;
+  left: 470px;
+  bottom: 190px;
+}
+
+.icon-building-7 {
+  position: absolute;
+  z-index: 4;
+  left: 530px;
+  bottom: 145px;
+}
+
+.icon-building-8 {
+  position: absolute;
+  z-index: 6;
+  left: 500px;
+  bottom: 85px;
+}
+
+.icon-building-9 {
+  position: absolute;
+  z-index: 5;
+  left: 430px;
+  bottom: 110px;
+}
+
+.icon-building-10 {
+  position: absolute;
+  z-index: 6;
+  left: 410px;
+  bottom: 55px;
+}
+
+.icon-building-11 {
+  position: absolute;
+  z-index: 6;
+  left: 350px;
+  bottom: 35px;
+}
+
+.icon-building-12 {
+  position: absolute;
+  z-index: 7;
+  left: 270px;
+  bottom: 25px;
+}
+
+.icon-building-13 {
+  position: absolute;
+  z-index: 9;
+  left: 60px;
+  bottom: 60px;
+}
+
+.tax-banner-image {
+  @media only screen and (min-width: 768px) {
+    height: 300px;
+    margin-bottom: 80px;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    height: auto;
+    margin-bottom: 0;
+  }
+}
+
+.tax-start-sharing {
+  padding: 200px 0;
+}
+
+.smartax-footer {
+  position: absolute;
+  top: -230px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+}
