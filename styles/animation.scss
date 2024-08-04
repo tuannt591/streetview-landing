@@ -649,6 +649,46 @@
   }
 }
 
+@keyframes jss100 {
+  0%,
+  100% {
+    transform: translate(35px, -20px);
+  }
+  50% {
+    transform: translate(80px, -45px);
+  }
+}
+
+@keyframes jss101 {
+  0%,
+  100% {
+    clip-path: polygon(40% 17%, 68% 40%, 70% 100%, 50% 100%, 0% 100%, 0% 0%);
+  }
+  50% {
+    clip-path: polygon(42% 11%, 73% 34%, 76% 100%, 50% 100%, 0% 100%, 0% 0%);
+  }
+}
+
+@keyframes jss102 {
+  0%,
+  100% {
+    clip-path: polygon(0% 5%, 65% 35%, 61% 100%, 0% 100%);
+  }
+  50% {
+    clip-path: polygon(0% -4%, 76% 30%, 76% 100%, 0% 100%);
+  }
+}
+
+@keyframes jss103 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(45px, -25px);
+  }
+}
+
 .animateHomeIcons {
   transform: translate(742.047px, 605.512px);
   transition-delay: 0.5s;
@@ -1023,4 +1063,20 @@
   transform: translate(-726.184px, 10820.605px) rotate(13deg);
   transition-delay: 2s;
   animation: car-animate 2s linear 2s;
+}
+
+.jss100 {
+  animation: jss100 3s linear infinite both;
+}
+
+.jss101 {
+  animation: jss101 3s linear infinite both;
+}
+
+.jss102 {
+  animation: jss102 3s linear infinite both;
+}
+
+.jss103 {
+  animation: jss103 3s linear infinite both;
 }

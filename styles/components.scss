@@ -539,3 +539,77 @@
   --d: 2600ms;
   transform: var(--t) scale(0);
 }
+
+.dt-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+
+  @media only screen and (min-width: 768px) {
+    left: 10px;
+  }
+}
+
+.dt-2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 2;
+  top: 180px;
+
+  @media only screen and (min-width: 768px) {
+    left: 10px;
+    top: 160px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    top: 220px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    top: 265px;
+  }
+}
+
+.dt-3 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  top: 310px;
+
+  @media only screen and (min-width: 768px) {
+    left: 10px;
+    top: 290px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    top: 400px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    top: 460px;
+  }
+}
+
+.css-s8gcyy {
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  top: 0px;
+}
+
+.css-xn0zva {
+  position: absolute;
+  z-index: 3;
+  left: 0px;
+  top: 0px;
+}
+
+.css-40s3d0 {
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  top: 0px;
+}
