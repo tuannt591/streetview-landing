@@ -497,6 +497,158 @@
   }
 }
 
+@keyframes jss64 {
+  0% {
+    stroke-dashoffset: 680;
+  }
+
+  60%,
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes jss65 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes jss77 {
+  0%,
+  100% {
+    transform: translate(-606px, -133px);
+  }
+}
+
+@keyframes jss75 {
+  0% {
+    transform: var(--t) scale(0);
+  }
+  100% {
+    transform: var(--t) scale(1);
+  }
+}
+
+@keyframes jss73 {
+  0% {
+    transform: translate(41px, 10422.7px) scale(0.16) rotate(-89.689deg);
+  }
+  33% {
+    transform: translate(-55px, 10476.7px) scale(0.54) rotate(-89.689deg);
+  }
+  66% {
+    transform: translate(-107px, 10508.7px) scale(0.75) rotate(-89.689deg);
+  }
+  100% {
+    transform: translate(-170.971px, 10543.7px) scale(1) rotate(-89.689deg);
+  }
+}
+
+@keyframes jss67 {
+  0% {
+    transform: translate(115.058px, 66.565px) scale(0.3);
+  }
+
+  33%,
+  66%,
+  100% {
+    transform: translate(115.058px, 66.565px) scale(1);
+  }
+}
+
+@keyframes jss69 {
+  0% {
+    transform: translate(59.55px, 34.195px) scale(0.22);
+  }
+  33% {
+    transform: translate(59.55px, 34.195px) scale(0.71);
+  }
+  66%,
+  100% {
+    transform: translate(59.55px, 34.195px) scale(1);
+  }
+}
+
+@keyframes jss71 {
+  0% {
+    transform: scale(0.16);
+  }
+  33% {
+    transform: scale(0.54);
+  }
+  66% {
+    transform: scale(0.76);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes jss55 {
+  0%,
+  60% {
+    transform: translate(83.68343px, 572.952px);
+  }
+  100% {
+    transform: translate(430.684px, 356.952px);
+  }
+}
+
+@keyframes jss57 {
+  0%,
+  100% {
+    transform: translate(-606px, -133px);
+  }
+}
+
+@keyframes jss58 {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes jss62 {
+  0% {
+    transform: translate(711px, 262px) scale(0.53);
+  }
+  100% {
+    transform: translate(498.54px, 126.911px) scale(1);
+  }
+}
+
+@keyframes jss79 {
+  0%,
+  100% {
+    transform: translate(-606px, -133px);
+  }
+}
+
+@keyframes jss63 {
+  0% {
+    transform: var(--t) scale(0);
+  }
+  100% {
+    transform: var(--t) scale(1);
+  }
+}
+
+@keyframes jss82 {
+  0%,
+  100% {
+    transform: var(--t) scale(1.1);
+  }
+  50% {
+    transform: var(--t) scale(1);
+  }
+}
+
 .animateHomeIcons {
   transform: translate(742.047px, 605.512px);
   transition-delay: 0.5s;
@@ -777,4 +929,98 @@
   position: absolute;
   animation: jss13 1s ease infinite;
   border-radius: 50%;
+}
+
+.jss63 {
+  animation: jss64 2500ms linear 500ms, jss65 1s ease 2300ms;
+  stroke-linecap: round;
+  stroke-dasharray: 680;
+  stroke-dashoffset: 680;
+}
+
+.jss76 {
+  animation: jss77 100ms linear infinite 7s;
+}
+
+.jss74 > g {
+  animation: jss75 500ms ease-in 7s;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.jss72 {
+  animation: jss73 3s linear infinite 4s;
+}
+
+.jss66 {
+  animation: jss67 3s linear infinite 4s;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.jss68 {
+  animation: jss69 3s linear infinite 4s;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.jss70 {
+  animation: jss71 3s linear infinite 4s;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.jss54 {
+  animation: jss55 4s ease;
+  transform: translate(430.684px, 356.952px);
+}
+
+.jss56 {
+  animation: jss57 2s ease infinite 4s;
+}
+
+.jss56 > g > g:first-child {
+  animation: jss58 1s ease 4s;
+  isolation: isolate;
+  mix-blend-mode: luminosity;
+}
+
+.jss61 {
+  animation: jss62 1s linear infinite 3s;
+}
+
+.jss78 {
+  animation: jss79 100ms infinite 5s;
+}
+
+.jss80 > g {
+  animation: jss63 500ms ease-in 5s;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.jss82 {
+  animation: jss82 750ms linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.animateLine {
+  transform: translate(995px, -10094px);
+  transition-delay: 0.5s;
+}
+
+.animateLine path {
+  stroke-dasharray: 525;
+  animation: line-animate 1.5s linear 0.5s;
+}
+
+.animatePulseCar {
+  animation: animate-car-pulse 2s ease-in-out 4s infinite;
+}
+
+.animateCar > g {
+  transform: translate(-726.184px, 10820.605px) rotate(13deg);
+  transition-delay: 2s;
+  animation: car-animate 2s linear 2s;
 }

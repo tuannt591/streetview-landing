@@ -1,18 +1,21 @@
 import React from 'react';
 import { Typography } from '@material-tailwind/react';
 
-const AlwaysHave = () => {
+const AutoAlwaysThe = () => {
   return (
     <section className="pb-[70px]">
       <div className="container">
         <div className="grid grid-cols-1 items-center gap-5 md:grid-cols-2 md:gap-10">
           <div className="max-md:order-2">
             <Typography variant="h3" className="mb-3 font-medium">
-              Always Have Most Up-To-Date Data
+              Always the Most Up-to-Date Information
             </Typography>
             <Typography variant="paragraph" className="mb-3 text-lg text-gray-600">
-              Having always actual data despite rapidly changing towns and in this example signs? Easy with Mapilio.
-              After each capturing tours, get most up to date data, so that you can compare old and new taxation status.
+              Our world is changing very rapidly. Every morning we are finding changes in our cities.
+              <br />
+              <br />
+              Thanks to a wide network of contributors from all over the world data content that is constantly updated
+              and made available to you
             </Typography>
           </div>
 
@@ -25,4 +28,4 @@ const AlwaysHave = () => {
   );
 };
 
-export default AlwaysHave;
+export default AutoAlwaysThe;

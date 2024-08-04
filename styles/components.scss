@@ -402,3 +402,140 @@
   transform: translateX(-50%);
   width: 40%;
 }
+
+.autonomous-header-bg {
+  img {
+    max-width: none;
+  }
+}
+
+.topCardBg {
+  position: absolute;
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+  mix-blend-mode: luminosity;
+}
+
+.autonomus-topcard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.css-kel5ob {
+  width: 100%;
+  height: 100%;
+  background-color: #2d3748;
+}
+
+.css-1i66iuf {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-radius: 20px;
+  background: transparent linear-gradient(0deg, #1b2536 0%, #1b253680 29%, #1b253640 73%, #1b253600 100%) 0% 0%
+    no-repeat padding-box;
+
+  @media only screen and (min-width: 768px) {
+    height: 323px;
+  }
+}
+
+.css-18v32hk {
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+
+  @media only screen and (min-width: 768px) {
+    bottom: 40px;
+  }
+}
+
+.css-14h387c {
+  width: 100%;
+  border-radius: 20px;
+  height: auto;
+  background-color: #1b2536;
+}
+
+.animatePoints,
+.animatePulseCar {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.animatePoints {
+  transform: var(--t) scale(1) !important;
+  transition: transform 0.2s ease-in var(--d);
+  transition: transform 0.2s ease-in var(--d), -webkit-transform 0.2s ease-in var(--d);
+}
+
+.css-ktn11k {
+  --t: translate(177.948px, 73.243px);
+  --d: 3300ms;
+  transform: var(--t) scale(0);
+}
+
+.css-lyljjq {
+  --t: translate(185.649px, 176.273px);
+  --d: 2400ms;
+  transform: var(--t) scale(0);
+}
+
+.css-1wkttru {
+  --t: translate(168.03px, -27.029px);
+  --d: 4000ms;
+  transform: var(--t) scale(0);
+}
+
+.css-wvbgeh {
+  --t: translate(145.859px, -92.205px);
+  --d: 4400ms;
+  transform: var(--t) scale(0);
+}
+
+.css-1bpnviz {
+  --t: translate(209.649px, -126.079px);
+  --d: 4600ms;
+  transform: var(--t) scale(0);
+}
+
+.css-1th3hzh {
+  --t: translate(153.405px, 163.337px);
+  --d: 2500ms;
+  transform: var(--t) scale(0);
+}
+
+.css-10qs7ik {
+  --t: translate(220.949px, 14.897px);
+  --d: 3800ms;
+  transform: var(--t) scale(0);
+}
+
+.css-fmshq1 {
+  --t: translate(179.835px, -159.138px);
+  --d: 4800ms;
+  transform: var(--t) scale(0);
+}
+
+.css-vnbuhd {
+  --t: translate(189.092px, -44.261px);
+  --d: 4200ms;
+  transform: var(--t) scale(0);
+}
+
+.css-ud99dn {
+  --t: translate(86.243px, 88.252px);
+  --d: 3000ms;
+  transform: var(--t) scale(0);
+}
+
+.css-b46jz1 {
+  --t: translate(133.338px, 142.996px);
+  --d: 2600ms;
+  transform: var(--t) scale(0);
+}
