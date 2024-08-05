@@ -138,14 +138,13 @@ export const menuFooter = [
       { name: 'IOS App', url: paths.home },
       { name: 'Desktop Installer', url: paths.home },
       { name: 'Web Platform', url: paths.home },
-      { name: 'Award', url: paths.home },
     ],
   },
   {
     title: 'Developers',
     items: [
       { name: 'For Developer', url: paths.developer },
-      { name: 'Documentation', url: paths.home },
+      { name: 'Documentation', url: paths.developer },
       { name: 'System Status', url: paths.home },
     ],
   },

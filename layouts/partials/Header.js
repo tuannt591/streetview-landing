@@ -19,6 +19,7 @@ import {
 } from '@material-tailwind/react';
 import { Bars3Icon, ChevronDownIcon, ChevronUpIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import { menuDrawer, menuHeader, menuPolicy } from 'constants/menu';
+import { paths } from 'constants/paths';
 
 const Header = () => {
   const router = useRouter();
@@ -198,7 +199,14 @@ const Header = () => {
           })}
         </List>
         <div className="mb-4">
-          <Button color="blue" variant="outlined" size="md" fullWidth className="rounded-full font-medium normal-case">
+          <Button
+            color="blue"
+            variant="outlined"
+            size="md"
+            fullWidth
+            className="rounded-full font-medium normal-case"
+            onClick={() => router.push(paths.developer)}
+          >
             Documentation
           </Button>
         </div>
