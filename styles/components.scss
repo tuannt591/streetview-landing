@@ -628,3 +628,25 @@
     opacity: 0.2;
   }
 }
+
+.app-item {
+  transition: all 0.2s;
+  &:hover {
+    background-color: #d1d3d5;
+  }
+
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+    .app-item-icon {
+      svg {
+        path {
+          fill: #d1d3d5;
+          &.jss104 {
+            animation: none;
+          }
+        }
+      }
+    }
+  }
+}

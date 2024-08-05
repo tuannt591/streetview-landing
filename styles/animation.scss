@@ -689,6 +689,15 @@
   }
 }
 
+@keyframes jss104 {
+  100% {
+    transform: translateY(-290px);
+  }
+  0% {
+    transform: translateY(-300px);
+  }
+}
+
 .animateHomeIcons {
   transform: translate(742.047px, 605.512px);
   transition-delay: 0.5s;
@@ -1079,4 +1088,8 @@
 
 .jss103 {
   animation: jss103 3s linear infinite both;
+}
+
+.jss104 {
+  animation: jss104 1s ease-in-out infinite;
 }
