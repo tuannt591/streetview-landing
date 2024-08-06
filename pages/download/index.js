@@ -587,6 +587,34 @@ const DownloadPage = () => {
           </div>
         </section>
       </MotionYContainer>
+
+      <MotionYContainer transition={{ delay: 0.4, duration: 0.5 }}>
+        <section className="bg-[#0056F1] p-[40px]">
+          <div className="container">
+            <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-2">
+              <div>
+                <Typography variant="h2" className="mb-3 text-white">
+                  Discover the smart map application Streetview.
+                </Typography>
+                <Typography variant="paragraph" className="mb-3 text-lg text-white">
+                  {`Streetview's platform creates smart map data using street-level images`}
+                </Typography>
+                <div className="mb-10 mt-5 grid grid-cols-2 items-center gap-4 lg:w-[75%]">
+                  <a href="">
+                    <img className="w-full" src="/images/app_store_black.svg" alt="image" />
+                  </a>
+                  <a href="">
+                    <img className="w-full" src="/images/goole_play_black.svg" alt="image" />
+                  </a>
+                </div>
+              </div>
+              <div className="p-[40px] max-md:hidden">
+                <img src="/images/uploader-footer-hand.png" alt="uploader-footer-hand" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </MotionYContainer>
     </Base>
   );
 };
