@@ -2,11 +2,10 @@ import React from 'react';
 import config from '@config/config.json';
 import Base from '@layouts/Baseof';
 import ScrollToTop from '@partials/ScrollToTop';
-import { Typography, Button } from '@material-tailwind/react';
+import { Typography } from '@material-tailwind/react';
 import { MotionYContainer } from '@components/Motion';
 import { useRouter } from 'next/router';
 import { paths } from 'constants/paths';
-import Typewriter from 'typewriter-effect';
 
 const LicensesPage = () => {
   const { title } = config.site;
