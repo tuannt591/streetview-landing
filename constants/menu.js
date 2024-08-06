@@ -145,7 +145,6 @@ export const menuFooter = [
     items: [
       { name: 'For Developer', url: paths.developer },
       { name: 'Documentation', url: paths.developer },
-      { name: 'System Status', url: paths.home },
     ],
   },
 ];

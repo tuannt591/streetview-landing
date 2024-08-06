@@ -15,6 +15,6 @@ export const paths = {
   licenses: '/licenses',
   privacyPolicy: '/privacy-policy',
   cookiePolicy: '/cookie-policy',
-  terms: '/terms',
+  terms: '/term-of-use',
   dataProcessing: '/data-processing',
 };

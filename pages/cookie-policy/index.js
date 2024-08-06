@@ -5,7 +5,7 @@ import ScrollToTop from '@partials/ScrollToTop';
 import { MotionYContainer } from '@components/Motion';
 import { Typography } from '@material-tailwind/react';
 
-const PrivacyPolicyPage = () => {
+const CookiePolicyPage = () => {
   const { title } = config.site;
 
   return (
@@ -18,7 +18,7 @@ const PrivacyPolicyPage = () => {
               <div className="policy-box-header">
                 <div className="p-[30px]">
                   <Typography variant="h2" className="mb-2 text-5xl text-white">
-                    Privacy Policy
+                    Cookie Policy
                   </Typography>
                   <Typography className="text-white">
                     Last modified on <strong>November 15, 2021</strong>
@@ -39,10 +39,19 @@ const PrivacyPolicyPage = () => {
               <div className="policy-box-body grid grid-cols-1 gap-10 p-[15px] md:grid-cols-4 md:p-[30px]">
                 <div className="md:col-span-3">
                   <Typography className="mb-5 text-lg">
-                    This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of
-                    Your information when You use the Service and tells You about Your privacy rights and how the law
-                    protects You. We use Your Personal data to provide and improve the Service. By using the Service,
-                    You agree to the collection and use of information in accordance with this Privacy Policy.
+                    This Cookies Policy explains what Cookies are and how We use them. You should read this policy so
+                    You can understand what type of cookies We use, or the information We collect using Cookies and how
+                    that information is used.
+                    <br />
+                    <br />
+                    Cookies do not typically contain any information that personally identifies a user, but personal
+                    information that we store about You may be linked to the information stored in and obtained from
+                    Cookies. For further information on how We use, store and keep your personal data secure, see our
+                    Privacy Policy.
+                    <br />
+                    <br />
+                    We do not store sensitive personal information, such as mailing addresses, account passwords etc. in
+                    the Cookies We use.
                   </Typography>
 
                   <Typography variant="h3" className="mb-2 font-medium">
@@ -117,44 +126,61 @@ const PrivacyPolicyPage = () => {
                   </Typography>
 
                   <Typography variant="h3" className="mb-2 font-medium">
-                    Collecting and Using Your Personal Data
+                    The use of the Cookies
                   </Typography>
 
                   <Typography variant="h4" className="mb-2 font-medium">
-                    Types of Data Collected
-                  </Typography>
-
-                  <Typography variant="h5" className="mb-2 font-medium">
-                    Personal Data
+                    Type of Cookies We Use
                   </Typography>
                   <Typography className="mb-5 text-lg">
-                    While using Our Service, We may ask You to provide Us with certain personally identifiable
-                    information that can be used to contact or identify You. Personally identifiable information may
-                    include, but is not limited to:
+                    {`Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on your personal
+                    computer or mobile device when You go offline, while Session Cookies are deleted as soon as You
+                    close your web browser.`}
+                    <br />
+                    <br />
+                    We use both session and persistent Cookies for the purposes set out below:
                     <ul className="list-disc pl-[40px]">
-                      <li className="pb-2">Email address</li>
-                      <li className="pb-2">Phone number</li>
-                      <li className="pb-2">Usage Data</li>
+                      <li className="pb-2">
+                        <strong>Necessary / Essential Cookies</strong>
+                        <br />
+                        Type: Session Cookies
+                        <br />
+                        Administered by: Us
+                        <br />
+                        Purpose: These Cookies are essential to provide You with services available through the Website
+                        and to enable You to use some of its features. They help to authenticate users and prevent
+                        fraudulent use of user accounts. Without these Cookies, the services that You have asked for
+                        cannot be provided, and We only use these Cookies to provide You with those services.
+                      </li>
+                      <li className="pb-2">
+                        <strong>Functionality Cookies</strong>
+                        <br />
+                        Type: Persistent Cookies
+                        <br />
+                        Administered by: Us
+                        <br />
+                        Purpose: These Cookies allow us to remember choices You make when You use the Website, such as
+                        remembering your login details or language preference. The purpose of these Cookies is to
+                        provide You with a more personal experience and to avoid You having to re-enter your preferences
+                        every time You use the Website.
+                      </li>
                     </ul>
                   </Typography>
-                  <Typography variant="h5" className="mb-2 font-medium">
-                    Usage Data
+
+                  <Typography variant="h4" className="mb-2 font-medium">
+                    Your Choices Regarding Cookies
                   </Typography>
                   <Typography className="mb-5 text-lg">
-                    Usage Data is collected automatically when using the Service.
+                    If You prefer to avoid the use of Cookies on the Website, first You must disable the use of Cookies
+                    in your browser and then delete the Cookies saved in your browser associated with this website. You
+                    may use this option for preventing the use of Cookies at any time.
                     <br />
                     <br />
-                    {`Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.`}
+                    If You do not accept Our Cookies, You may experience some inconvenience in your use of the Website
+                    and some features may not function properly.
                     <br />
                     <br />
-                    When You access the Service by or through a mobile device, We may collect certain information
-                    automatically, including, but not limited to, the type of mobile device You use, Your mobile device
-                    unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile
-                    Internet browser You use, unique device identifiers and other diagnostic data.
-                    <br />
-                    <br />
-                    We may also collect information that Your browser sends whenever You visit our Service or when You
-                    access the Service by or through a mobile device.
+                    {`If You'd like to delete Cookies or instruct your web browser to delete or refuse Cookies, please visit the help pages of your web browser.`}
                   </Typography>
 
                   <Typography variant="h3" className="mb-2 font-medium">
@@ -194,4 +220,4 @@ const PrivacyPolicyPage = () => {
   );
 };
 
-export default PrivacyPolicyPage;
+export default CookiePolicyPage;
